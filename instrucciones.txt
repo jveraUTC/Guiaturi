@@ -1,0 +1,6 @@
+-Descargar el repositorio en una carpeta a convenir
+-Abrir eclipce,(importar el repositorio Guiaturi)
+-De esta manera se abrira el entorno de trabajo
+-Si realizan un cambio en eclipse se sincroniza automaticamente en Gitgub 
+(Realizar el commit segun los cambios q se realicen)
+-Sincronizar en cada momento pues se actualizaran los cambios de los demas
