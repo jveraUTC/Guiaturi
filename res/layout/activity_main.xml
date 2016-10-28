@@ -1,45 +1,82 @@
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/AbsoluteLayout2"
+    android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/SBAN"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
     tools:context="com.example.guiaturi.MainActivity" >
 
-    <RelativeLayout
-        android:id="@+id/RelativeLayout1"
-        android:layout_width="267dp"
-        android:layout_height="408dp"
-        android:layout_x="18dp"
-        android:layout_y="17dp"
-        android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp" >
 
-        <TextView
-            android:id="@+id/textView1"
+        <Button
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="133dp"
-            android:text="BIENVENIDOS"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFFFF" />
+            android:layout_height="30dp"
+            android:layout_weight="0.34"
+            android:background="#58ACFA"
+            android:text="Inicio"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#58ACFA"
+            android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/textView2"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
-            android:text="TURISMO DE COTOPAXI"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFFFF" />
+            android:layout_height="31dp"
+            android:layout_weight="0.27"
+            android:background="#58ACFA"
+            android:text="Sitios Turisticos"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
 
-    </RelativeLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0.48"
+            android:background="#58ACFA"
+            android:text="Contacto"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+    </LinearLayout>
 
-</AbsoluteLayout>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Cada uno de los cantones y parroquias que conforman la provincia cuentan con una gran variedad de atractivos culturales y naturales"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/editText1"
+        android:src="@drawable/coto" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/tren" />
+
+</RelativeLayout>
