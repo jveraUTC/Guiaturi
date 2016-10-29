@@ -51,8 +51,8 @@
     <LinearLayout
         android:layout_width="270dp"
         android:layout_height="96dp"
-        android:layout_x="21dp"
-        android:layout_y="178dp" >
+        android:layout_x="34dp"
+        android:layout_y="182dp" >
 
         <ImageView
             android:id="@+id/imageView1"
