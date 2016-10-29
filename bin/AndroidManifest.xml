@@ -26,6 +26,10 @@
             android:name=".Sitio"
             android:label="@string/title_activity_sitio" >
         </activity>
+        <activity
+            android:name=".Turismo"
+            android:label="@string/title_activity_turismo" >
+        </activity>
     </application>
 
 </manifest>

@@ -82,12 +82,6 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lugares Turísticos" />
-
         </LinearLayout>
 
         <ImageButton
@@ -130,11 +124,19 @@
         android:text="Tradiciones de Cotopaxi" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="270dp"
+        android:text="Lugares Turísticos" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="252dp"
-        android:layout_y="284dp"
+        android:layout_x="103dp"
+        android:layout_y="364dp"
         android:text="Culturas de Cotopaxi" />
 
 </AbsoluteLayout>
