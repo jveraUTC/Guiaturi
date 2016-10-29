@@ -1,143 +1,162 @@
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/AbsoluteLayout1"
+    android:id="@+id/AbsoluteLayout2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/fondo2"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo1"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
     tools:context="com.example.guiaturi.Sitio" >
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="301dp"
-        android:layout_height="wrap_content"
-        android:layout_x="-1dp"
-        android:layout_y="95dp" >
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_weight="0.51"
-            android:background="#58ACFA"
-            android:text="Inicio"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#58ACFA"
-            android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="31dp"
-            android:layout_weight="0.27"
-            android:background="#58ACFA"
-            android:onClick="sitio"
-            android:text="Sitios Turisticos"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_weight="0.48"
-            android:background="#58ACFA"
-            android:text="Contacto"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="214dp"
-        android:layout_height="wrap_content"
-        android:layout_x="45dp"
-        android:layout_y="162dp"
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:layout_x="3dp"
+        android:layout_y="-1dp"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/textView1"
+        <ImageView
+            android:id="@+id/imageView1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="COTOPAXI Y SUS ATRACTIVOS" />
+            android:layout_height="100dp"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/cabecera2" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="29dp"
-        android:layout_y="205dp"
-        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="8dp"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/linea" />
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="0.34"
+                android:background="#58ACFA"
+                android:text="Inicio"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#58ACFA"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_weight="0.27"
+                android:background="#58ACFA"
+                android:onClick="sitio"
+                android:text="Sitios Turisticos"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="0.48"
+                android:background="#58ACFA"
+                android:text="Contacto"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="210dp"
             android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Cooper Black"
+                android:gravity="center_horizontal|bottom"
+                android:shadowRadius="1.2"
+                android:text="COTOPAXI Y SUS ATRACTIVOS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp" >
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent" >
+                android:layout_height="154dp"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/turistico" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="LUGARES TURISTICOS DE COTOPAXI"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cultura" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="133dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="CULTURA DE COTOPAXI"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="wrap_content" >
+
+        </LinearLayout>
+
         <ImageButton
-            android:id="@+id/imageButton1"
-            android:layout_width="126dp"
-            android:layout_height="wrap_content"
-            android:onClick="turismo1"
-            android:src="@drawable/turistico" />
+            android:id="@+id/imageButton3"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:src="@drawable/tradicion" />
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_x="94dp"
-        android:layout_y="400dp" >
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="244dp"
-        android:layout_y="301dp"
-        android:src="@drawable/cultura" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="57dp"
-        android:layout_y="438dp"
-        android:src="@drawable/tradicion" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="103dp"
-        android:layout_y="364dp"
-        android:text="Culturas de Cotopaxi" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="214dp"
-        android:layout_y="268dp"
-        android:text="Lugares Turísticos" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="101dp"
-        android:layout_y="426dp"
-        android:text="Tradiciones de Cotopaxi" />
 
 </AbsoluteLayout>
