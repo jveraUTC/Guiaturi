@@ -1,9 +1,11 @@
 package com.example.guiaturi;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Sitio extends Activity {
 
@@ -13,6 +15,11 @@ public class Sitio extends Activity {
 		setContentView(R.layout.activity_sitio);
 	}
 
+	public void turismo1(View v){
+    	Intent turismo1=new Intent (this,Turismo.class);
+    	startActivity(turismo1);
+    }
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
