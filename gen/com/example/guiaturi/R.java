@@ -23,39 +23,41 @@ public final class R {
     }
     public static final class drawable {
         public static final int artesania=0x7f020000;
-        public static final int bannerc=0x7f020001;
-        public static final int bannerp=0x7f020002;
-        public static final int cabecera2=0x7f020003;
-        public static final int coto=0x7f020004;
-        public static final int cotopaxi=0x7f020005;
-        public static final int cultura=0x7f020006;
-        public static final int fondo=0x7f020007;
-        public static final int fondo1=0x7f020008;
-        public static final int fondo2=0x7f020009;
-        public static final int ic_launcher=0x7f02000a;
-        public static final int linea=0x7f02000b;
-        public static final int lugares=0x7f02000c;
-        public static final int tradicion=0x7f02000d;
-        public static final int tren=0x7f02000e;
-        public static final int turistico=0x7f02000f;
+        public static final int atermales=0x7f020001;
+        public static final int bannerc=0x7f020002;
+        public static final int bannerp=0x7f020003;
+        public static final int cabecera2=0x7f020004;
+        public static final int coto=0x7f020005;
+        public static final int cotopaxi=0x7f020006;
+        public static final int cultura=0x7f020007;
+        public static final int fondo=0x7f020008;
+        public static final int fondo1=0x7f020009;
+        public static final int fondo2=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int linea=0x7f02000c;
+        public static final int lugares=0x7f02000d;
+        public static final int tradicion=0x7f02000e;
+        public static final int tren=0x7f02000f;
+        public static final int turistico=0x7f020010;
     }
     public static final class id {
         public static final int AbsoluteLayout1=0x7f080000;
         public static final int AbsoluteLayout2=0x7f080007;
-        public static final int action_settings=0x7f08000f;
+        public static final int action_settings=0x7f080010;
         public static final int button1=0x7f080002;
         public static final int button2=0x7f080003;
         public static final int button3=0x7f080004;
-        public static final int imageButton1=0x7f08000a;
-        public static final int imageButton2=0x7f08000c;
-        public static final int imageButton3=0x7f08000d;
+        public static final int imageButton1=0x7f080009;
+        public static final int imageButton2=0x7f08000a;
+        public static final int imageButton3=0x7f08000c;
         public static final int imageView1=0x7f080005;
         public static final int imageView2=0x7f080008;
+        public static final int imageView3=0x7f08000f;
         public static final int linearLayout1=0x7f080001;
         public static final int textView1=0x7f080006;
-        public static final int textView2=0x7f080009;
-        public static final int textView3=0x7f08000b;
-        public static final int textView4=0x7f08000e;
+        public static final int textView2=0x7f08000b;
+        public static final int textView3=0x7f08000e;
+        public static final int textView4=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
