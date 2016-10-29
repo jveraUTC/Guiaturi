@@ -33,6 +33,45 @@
             android:scaleType="fitXY"
             android:src="@drawable/linea" />
 
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="0.34"
+                android:background="#58ACFA"
+                android:text="Inicio"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#58ACFA"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_weight="0.27"
+                android:background="#58ACFA"
+                android:onClick="sitio"
+                android:text="Sitios Turisticos"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="0.48"
+                android:background="#58ACFA"
+                android:text="Contacto"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+        </LinearLayout>
+
 </LinearLayout>
 
 </AbsoluteLayout>
