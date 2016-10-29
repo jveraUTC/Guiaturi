@@ -116,27 +116,27 @@
         android:src="@drawable/tradicion" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="106dp"
-        android:layout_y="433dp"
-        android:text="Tradiciones de Cotopaxi" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="198dp"
-        android:layout_y="270dp"
-        android:text="Lugares Turísticos" />
-
-    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="103dp"
         android:layout_y="364dp"
         android:text="Culturas de Cotopaxi" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="214dp"
+        android:layout_y="268dp"
+        android:text="Lugares Turísticos" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="426dp"
+        android:text="Tradiciones de Cotopaxi" />
 
 </AbsoluteLayout>
