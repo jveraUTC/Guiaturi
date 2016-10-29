@@ -24,14 +24,15 @@ public final class R {
     public static final class drawable {
         public static final int bannerc=0x7f020000;
         public static final int bannerp=0x7f020001;
-        public static final int coto=0x7f020002;
-        public static final int cotopaxi=0x7f020003;
-        public static final int fondo=0x7f020004;
-        public static final int fondo1=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int linea=0x7f020007;
-        public static final int lugares=0x7f020008;
-        public static final int tren=0x7f020009;
+        public static final int cabecera2=0x7f020002;
+        public static final int coto=0x7f020003;
+        public static final int cotopaxi=0x7f020004;
+        public static final int fondo=0x7f020005;
+        public static final int fondo1=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int linea=0x7f020008;
+        public static final int lugares=0x7f020009;
+        public static final int tren=0x7f02000a;
     }
     public static final class id {
         public static final int AbsoluteLayout1=0x7f080000;

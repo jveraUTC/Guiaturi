@@ -1,9 +1,11 @@
 package com.example.guiaturi;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends Activity {
@@ -11,9 +13,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);    
     }
-
+    public void sitio(View v){
+    	Intent sitio=new Intent (this,Sitio.class);
+    	startActivity(sitio);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

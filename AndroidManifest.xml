@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SitioActivity"
+            android:name=".Sitio"
             android:label="@string/title_activity_sitio" >
         </activity>
     </application>
