@@ -19,6 +19,11 @@ public class MainActivity extends Activity {
     	Intent sitio=new Intent (this,Sitio.class);
     	startActivity(sitio);
     }
+    public void turismo(View v){
+    	Intent turismo=new Intent (this,Turismo.class);
+    	startActivity(turismo);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
