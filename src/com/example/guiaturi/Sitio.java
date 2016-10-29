@@ -15,7 +15,7 @@ public class Sitio extends Activity {
 		setContentView(R.layout.activity_sitio);
 	}
 
-	public void turismo(View v){
+	public void turismo1(View v){
     	Intent turismo1=new Intent (this,Turismo.class);
     	startActivity(turismo1);
     }
