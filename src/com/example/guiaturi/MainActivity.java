@@ -64,38 +64,14 @@ public class MainActivity extends Activity {
 		listData = new HashMap<String, List<String>>();
 		
 		// GROUP
-			listGroup.add("Grupo 1");
-			listGroup.add("Grupo 2");
-			listGroup.add("Grupo 3");
-			listGroup.add("Grupo 4");
+			listGroup.add("¿Dónde quieres ir?");
 			
 		// CHILDREN
 			List<String> auxList = new ArrayList<String>();
-			auxList.add("Item 1");
-			auxList.add("Item 2");
-			auxList.add("Item 3");
-			auxList.add("Item 4");
+			auxList.add("Manifestaciones Culturales");
+			auxList.add("Sitios Naturales");
+			auxList.add("Páramos y Aventura");
 			listData.put(listGroup.get(0), auxList);
 			
-			auxList = new ArrayList<String>();
-			auxList.add("Item 5");
-			auxList.add("Item 6");
-			auxList.add("Item 7");
-			auxList.add("Item 8");
-			listData.put(listGroup.get(1), auxList);
-			
-			auxList = new ArrayList<String>();
-			auxList.add("Item 9");
-			auxList.add("Item 10");
-			auxList.add("Item 11");
-			auxList.add("Item 12");
-			listData.put(listGroup.get(2), auxList);
-			
-			auxList = new ArrayList<String>();
-			auxList.add("Item 13");
-			auxList.add("Item 14");
-			auxList.add("Item 15");
-			auxList.add("Item 16");
-			listData.put(listGroup.get(3), auxList);
 	}
 }
