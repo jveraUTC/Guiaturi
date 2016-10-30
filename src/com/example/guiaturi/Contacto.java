@@ -22,6 +22,10 @@ public class Contacto extends Activity {
 		Intent c=  new Intent (this,Sitio.class);
 		startActivity(c);
 	}
+	public void contacto(View v){
+		Intent c=  new Intent (this,Contacto.class);
+		startActivity(c);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
