@@ -22,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Sitio"
+            android:label="@string/title_activity_sitio" >
+        </activity>
+        <activity
+            android:name=".Turismo"
+            android:label="@string/title_activity_turismo" >
+        </activity>
+        <activity
+            android:name=".Contacto"
+            android:label="@string/title_activity_contacto" >
+        </activity>
     </application>
 
 </manifest>

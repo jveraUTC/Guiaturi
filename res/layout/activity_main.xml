@@ -34,24 +34,40 @@
             android:background="#58ACFA"
             android:text="Sitios Turisticos"
             android:textColor="#FFFFFF"
+            android:onClick="sitio"
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/cotacto"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_weight="0.48"
             android:background="#58ACFA"
             android:text="Contacto"
             android:textColor="#FFFFFF"
-            android:textSize="12sp" />
+            android:textSize="12sp" 
+            android:onClick="contacto"/>
     </LinearLayout>
 
+<<<<<<< HEAD
     <RelativeLayout
         android:id="@+id/RelativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
+=======
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="96dp"
+        android:layout_x="34dp"
+        android:layout_y="182dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coto" />
+>>>>>>> origin/master
 
         <LinearLayout
             android:id="@+id/linearLayout3"
