@@ -34,6 +34,10 @@
             android:name=".Contacto"
             android:label="@string/title_activity_contacto" >
         </activity>
+        <activity
+            android:name=".Inicio"
+            android:label="@string/title_activity_inicio" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,32 +1,22 @@
 package com.example.guiaturi;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Contacto extends Activity {
+public class Inicio extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_contacto);
-	}
-	public void sitiost(View v){
-		Intent c=  new Intent (this,Sitio.class);
-		startActivity(c);
-	}
-	public void contacto(View v){
-		Intent c=  new Intent (this,Contacto.class);
-		startActivity(c);
+		setContentView(R.layout.activity_inicio);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.contacto, menu);
+		getMenuInflater().inflate(R.menu.inicio, menu);
 		return true;
 	}
 

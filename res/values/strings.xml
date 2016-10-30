@@ -7,5 +7,6 @@
     <string name="title_activity_sitio">SitioActivity</string>
     <string name="title_activity_turismo">Turismo</string>
     <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_inicio">Inicio</string>
 
 </resources>
