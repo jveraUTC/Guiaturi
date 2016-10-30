@@ -56,9 +56,9 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="170dp"
+            android:layout_width="171dp"
             android:layout_height="100dp"
-            android:src="@drawable/coto" />
+            android:src="@drawable/tren" />
 
         <TextView
             android:id="@+id/textView1"
@@ -78,7 +78,7 @@
         <ExpandableListView
             android:id="@+id/expandableListView"
             android:layout_width="match_parent"
-            android:layout_height="139dp" >
+            android:layout_height="154dp" >
 
         </ExpandableListView>
 
