@@ -165,7 +165,19 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/avictoria" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1.26"
                 android:orientation="vertical" >
 
                 <LinearLayout
@@ -176,9 +188,8 @@
                         android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:text="Alfarería de La Victoria" />
-
+                        android:text="Alfarería de La Victoria"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -190,8 +201,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.44"
-                        android:textStyle="bold"
-                        android:text="Ubicación:" />
+                        android:text="Ubicación:"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -200,26 +211,12 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="220dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Se encuentra ubicado a 3 km de la ciudad de Pujilí, en la parroquia aLa Victoria, a una altitud de 3008 m.s.n.m." />
 
                 </LinearLayout>
-
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent" >
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/avictoria" />
-
-            </LinearLayout>
-
         </LinearLayout>
 
     </LinearLayout>
