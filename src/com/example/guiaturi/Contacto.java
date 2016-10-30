@@ -1,9 +1,11 @@
 package com.example.guiaturi;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Contacto extends Activity {
 
@@ -11,6 +13,10 @@ public class Contacto extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contacto);
+	}
+	public void inicio(View v){
+		Intent c=  new Intent (this,MainActivity.class);
+		startActivity(c);
 	}
 
 	@Override
