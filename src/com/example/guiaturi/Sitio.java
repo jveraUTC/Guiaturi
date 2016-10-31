@@ -15,10 +15,6 @@ public class Sitio extends Activity {
 		setContentView(R.layout.activity_sitio);
 	}
 
-	public void turismo1(View v){
-    	Intent turismo1=new Intent (this,Turismo.class);
-    	startActivity(turismo1);
-    }
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -37,5 +33,17 @@ public class Sitio extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public void Inicio(View v){
+    	Intent s=new Intent (this,MainActivity.class);
+    	startActivity(s);
+    }
+	public void turismo(View v){
+		Intent c=  new Intent (this,Turismo.class);
+		startActivity(c);
+	}
+	public void contacto(View v){
+		Intent c=  new Intent (this,Contacto.class);
+		startActivity(c);
 	}
 }

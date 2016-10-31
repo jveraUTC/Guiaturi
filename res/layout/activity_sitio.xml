@@ -42,13 +42,14 @@
             <Button
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="31dp"
                 android:layout_weight="0.34"
                 android:background="#58ACFA"
                 android:text="Inicio"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#58ACFA"
-                android:textSize="12sp" />
+                android:textSize="14sp" 
+                android:onClick="inicio"/>
 
             <Button
                 android:id="@+id/button2"
@@ -56,10 +57,10 @@
                 android:layout_height="31dp"
                 android:layout_weight="0.27"
                 android:background="#58ACFA"
-                android:onClick="sitio"
+                android:onClick="turismo"
                 android:text="Sitios Turisticos"
                 android:textColor="#FFFFFF"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/button3"
@@ -68,8 +69,9 @@
                 android:layout_weight="0.48"
                 android:background="#58ACFA"
                 android:text="Contacto"
+                android:onClick="contacto"
                 android:textColor="#FFFFFF"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
         <TextView

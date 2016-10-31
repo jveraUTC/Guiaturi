@@ -73,9 +73,16 @@ public class MainActivity extends Activity {
 			listData.put(listGroup.get(0), auxList);
 			
 	}
-	public void sitio(View v){
-    	Intent sitio=new Intent (this,Sitio.class);
-    	startActivity(sitio);
+	public void inicio(View v){
+    	Intent s=new Intent (this,MainActivity.class);
+    	startActivity(s);
     }
-	
+	public void turismo(View v){
+		Intent c=  new Intent (this,Sitio.class);
+		startActivity(c);
+	}
+	public void contacto(View v){
+		Intent c=  new Intent (this,Contacto.class);
+		startActivity(c);
+	}
 }

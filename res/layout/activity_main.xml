@@ -24,7 +24,9 @@
             android:text="Inicio"
             android:textColor="#FFFFFF"
             android:textColorHint="#58ACFA"
-            android:textSize="14sp" />
+            android:textSize="14sp" 
+            android:onClick="inicio"
+/>
 
         <Button
             android:id="@+id/button2"
@@ -32,7 +34,7 @@
             android:layout_height="31dp"
             android:layout_weight="0.27"
             android:background="#58ACFA"
-            android:onClick="sitio"
+            android:onClick="turismo"
             android:text="Sitios Turisticos"
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
@@ -45,7 +47,9 @@
             android:background="#58ACFA"
             android:text="Contacto"
             android:textColor="#FFFFFF"
-            android:textSize="14sp" />
+            android:textSize="14sp" 
+            android:onClick="contacto"
+            />
     </LinearLayout>
 
     <ImageView
@@ -72,14 +76,6 @@
         android:layout_y="190dp"
         android:src="@drawable/lagunac" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="172dp"
-        android:layout_height="110dp"
-        android:layout_x="148dp"
-        android:layout_y="325dp"
-        android:src="@drawable/trenc" />
-
     <ExpandableListView
         android:id="@+id/expandableListView"
         android:layout_width="match_parent"
@@ -87,5 +83,13 @@
         android:layout_x="-2dp"
         android:layout_y="162dp" >
     </ExpandableListView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_x="164dp"
+        android:layout_y="325dp"
+        android:src="@drawable/trenc" />
 
 </AbsoluteLayout>
