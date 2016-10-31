@@ -63,7 +63,7 @@ public final class R {
         public static final int contacto=0x7f080004;
         public static final int expandableListView=0x7f080010;
         public static final int imageButton1=0x7f080013;
-        public static final int imageButton2=0x7f080014;
+        public static final int imageButton2=0x7f080018;
         public static final int imageButton3=0x7f080016;
         public static final int imageView=0x7f08000c;
         public static final int imageView1=0x7f080012;
@@ -76,8 +76,8 @@ public final class R {
         public static final int sitiost=0x7f080003;
         public static final int textView1=0x7f080006;
         public static final int textView10=0x7f08001f;
-        public static final int textView2=0x7f080015;
-        public static final int textView3=0x7f080018;
+        public static final int textView2=0x7f080014;
+        public static final int textView3=0x7f080015;
         public static final int textView4=0x7f080017;
         public static final int textView5=0x7f080019;
         public static final int textView6=0x7f08001a;

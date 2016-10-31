@@ -15,7 +15,10 @@ public class Turismo extends Activity {
 		setContentView(R.layout.activity_turismo);
 	}
 
-	
+	public void sitio(View v){
+    	Intent sitio=new Intent (this,Sitio.class);
+    	startActivity(sitio);
+    }
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

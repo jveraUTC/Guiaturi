@@ -7,14 +7,12 @@ import java.util.List;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -54,6 +52,7 @@ public class MainActivity extends Activity {
 			public void onGroupCollapse(int groupPosition) {
 				Toast.makeText(MainActivity.this, "Group (Collapse): "+groupPosition, Toast.LENGTH_SHORT).show();
 			}
+			
 		});
 		
 		expandableListView.setGroupIndicator(getResources().getDrawable(R.drawable.icon_group));
@@ -74,4 +73,9 @@ public class MainActivity extends Activity {
 			listData.put(listGroup.get(0), auxList);
 			
 	}
+	public void sitio(View v){
+    	Intent sitio=new Intent (this,Sitio.class);
+    	startActivity(sitio);
+    }
+	
 }
