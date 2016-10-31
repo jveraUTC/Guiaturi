@@ -24,7 +24,9 @@
             android:text="Inicio"
             android:textColor="#FFFFFF"
             android:textColorHint="#58ACFA"
-            android:textSize="14sp" />
+            android:textSize="14sp" 
+            android:onClick="button1"
+            />
 
         <Button
             android:id="@+id/button2"
