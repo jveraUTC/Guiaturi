@@ -14,7 +14,11 @@ public class Contacto extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contacto);
 	}
-	public void sitiost(View v){
+	public void inicio(View v){
+		Intent c=  new Intent (this,MainActivity.class);
+		startActivity(c);
+	}
+	public void sitio(View v){
 		Intent c=  new Intent (this,Sitio.class);
 		startActivity(c);
 	}

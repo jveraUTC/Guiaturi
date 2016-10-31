@@ -48,7 +48,8 @@
                 android:text="Inicio"
                 android:textColor="#FFFFFF"
                 android:textColorHint="#58ACFA"
-                android:textSize="14sp" />
+                android:textSize="14sp" 
+                android:onClick="inicio"/>
 
             <Button
                 android:id="@+id/button2"
@@ -56,7 +57,7 @@
                 android:layout_height="31dp"
                 android:layout_weight="0.27"
                 android:background="#58ACFA"
-                android:onClick="sitio"
+                android:onClick="turismo"
                 android:text="Sitios Turisticos"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp" />
@@ -68,6 +69,7 @@
                 android:layout_weight="0.48"
                 android:background="#58ACFA"
                 android:text="Contacto"
+                android:onClick="contacto"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp" />
         </LinearLayout>
