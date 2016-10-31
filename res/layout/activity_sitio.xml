@@ -122,6 +122,14 @@
                 android:layout_height="152dp"
                 android:orientation="vertical" >
 
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cultura" />
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="133dp"
@@ -159,14 +167,5 @@
         android:gravity="center_horizontal"
         android:text="TRADICIONES DE COTOPAXI"
         android:textStyle="bold" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="288dp"
-        android:layout_y="250dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/cultura" />
 
 </AbsoluteLayout>
