@@ -20,11 +20,11 @@
             android:layout_height="30dp"
             android:layout_weight="0.34"
             android:background="#58ACFA"
+            android:onClick="inicio"
             android:text="Inicio"
             android:textColor="#FFFFFF"
             android:textColorHint="#58ACFA"
-            android:textSize="12sp"
-             android:onClick="inicio" />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/sitiost"
@@ -32,10 +32,10 @@
             android:layout_height="31dp"
             android:layout_weight="0.27"
             android:background="#58ACFA"
+            android:onClick="sitio"
             android:text="Sitios Turisticos"
             android:textColor="#FFFFFF"
-            android:onClick="sitio"
-            android:textSize="12sp" />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/contacto"
@@ -43,10 +43,11 @@
             android:layout_height="30dp"
             android:layout_weight="0.48"
             android:background="#58ACFA"
+            android:onClick="contacto"
             android:text="Contacto"
             android:textColor="#FFFFFF"
-            android:textSize="12sp" 
-             android:onClick="contacto"/>
+            android:textSize="14sp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -64,13 +65,21 @@
             android:textSize="19sp" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_x="46dp"
-        android:layout_y="220dp"
-        android:text="Para mas informacion puedes contactarnos a:"
+        android:layout_x="12dp"
+        android:layout_y="409dp" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="418dp"
+        android:text="0987666567- 032888777"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="12sp" />
 
@@ -78,20 +87,50 @@
         android:id="@+id/TextView01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="43dp"
-        android:layout_y="256dp"
+        android:layout_x="58dp"
+        android:layout_y="384dp"
         android:text="Guiaturiscotopaxi@gmail.com"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="12sp" />
+        android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="46dp"
-        android:layout_y="282dp"
-        android:text="0987666567- 032888777"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="12sp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="132dp"
+        android:layout_height="69dp"
+        android:layout_x="89dp"
+        android:layout_y="302dp"
+        android:src="@drawable/gadcotopaxi" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_x="10dp"
+        android:layout_y="232dp"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="244dp"
+        android:layout_y="223dp"
+        android:src="@drawable/youtube" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_x="170dp"
+        android:layout_y="227dp"
+        android:src="@drawable/gmail" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_x="92dp"
+        android:layout_y="232dp"
+        android:src="@drawable/twiter" />
     
 </AbsoluteLayout>
