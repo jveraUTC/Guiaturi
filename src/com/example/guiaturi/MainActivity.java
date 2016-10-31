@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
     	Intent sitio=new Intent (this,Sitio.class);
     	startActivity(sitio);
     }
-	public void contacto(View v){
+	public void button3(View v){
 		Intent c=  new Intent (this,Contacto.class);
 		startActivity(c);
 	}
